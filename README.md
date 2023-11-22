@@ -25,6 +25,13 @@ digit_classifier = DigitClassifier('cnn')
 image = load_your_image()
 prediction = digit_classifier.predict(image)
 print(f"The predicted digit is: {prediction}")
+```
 
 Check out the test.py file for additional examples on how to use the DigitClassifier with different algorithms. The file contains usage scenarios and demonstrates the predict function for each model type.
 
+## Generating the Random Forest Model
+
+To create and train the Random Forest model, execute the `train_random_forest.py` script. This script contains the necessary steps for generating the model without the need for additional code. Simply run the following command in your terminal:
+
+```bash
+python3 src/random_forest/train_random_forest.py
