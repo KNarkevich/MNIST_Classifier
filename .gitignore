@@ -1,0 +1,12 @@
+__pycache__/
+
+.vscode/
+
+venv
+myenv
+
+.idea
+
+data/
+
+models/model_rf.pth
